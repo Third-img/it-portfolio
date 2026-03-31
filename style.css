@@ -64,6 +64,7 @@ body {
   position: fixed;
   z-index: 9999;
   width: 100%;
+  transform: scale(5);
   opacity: 50%;
   mix-blend-mode: overlay;
   pointer-events: none;
@@ -533,10 +534,10 @@ body {
   #hero-job {
     font-size: 1rem;
   }
-  #hero-desc{
-    font-size:0.8rem;
+  #hero-desc {
+    font-size: 0.8rem;
   }
-  
+
   .about-left img {
     width: 300px;
   }
@@ -576,11 +577,10 @@ body {
     align-items: center;
     width: 100%;
   }
-  
 }
 
 @media only screen and (max-width: 425px) {
-  .nav-container{
+  .nav-container {
     position: fixed;
     top: auto;
     bottom: 3%;
@@ -589,13 +589,13 @@ body {
     width: 40px;
     border-radius: 10px;
   }
-  .nav-links{
+  .nav-links {
     display: none;
   }
-  .nav-items{
+  .nav-items {
     text-align: center;
   }
-  #nav-logo{
+  #nav-logo {
     margin: 0;
     height: fit-content;
     font-size: 1.5rem;
@@ -624,5 +624,16 @@ body {
   }
   #mail-text {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer-connect{
+    align-items: center;
+  }
+  #connect-text {
+    font-size: 0.7rem;
+  }
+  #mail-text {
+    font-size: 0.7rem;
   }
 }
